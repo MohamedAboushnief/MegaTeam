@@ -16,4 +16,4 @@ steps:
 
 
 
-OpenCV version 3.2
+OpenCV version 3.2.0
