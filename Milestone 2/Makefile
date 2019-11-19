@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mohamed/Desktop/MPI_Parallel_Programming
+CMAKE_SOURCE_DIR = "/home/mohamed/Desktop/MegaTeam/Milestone 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mohamed/Desktop/MPI_Parallel_Programming
+CMAKE_BINARY_DIR = "/home/mohamed/Desktop/MegaTeam/Milestone 2"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Desktop/MPI_Parallel_Programming/CMakeFiles /home/mohamed/Desktop/MPI_Parallel_Programming/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mohamed/Desktop/MegaTeam/Milestone 2/CMakeFiles" "/home/mohamed/Desktop/MegaTeam/Milestone 2/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamed/Desktop/MPI_Parallel_Programming/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mohamed/Desktop/MegaTeam/Milestone 2/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ MicroM2/fast:
 	$(MAKE) -f CMakeFiles/MicroM2.dir/build.make CMakeFiles/MicroM2.dir/build
 .PHONY : MicroM2/fast
 
-M1.o: M1.cpp.o
+M2.o: M2.cpp.o
 
-.PHONY : M1.o
+.PHONY : M2.o
 
 # target to build an object file
-M1.cpp.o:
-	$(MAKE) -f CMakeFiles/MicroM2.dir/build.make CMakeFiles/MicroM2.dir/M1.cpp.o
-.PHONY : M1.cpp.o
+M2.cpp.o:
+	$(MAKE) -f CMakeFiles/MicroM2.dir/build.make CMakeFiles/MicroM2.dir/M2.cpp.o
+.PHONY : M2.cpp.o
 
-M1.i: M1.cpp.i
+M2.i: M2.cpp.i
 
-.PHONY : M1.i
+.PHONY : M2.i
 
 # target to preprocess a source file
-M1.cpp.i:
-	$(MAKE) -f CMakeFiles/MicroM2.dir/build.make CMakeFiles/MicroM2.dir/M1.cpp.i
-.PHONY : M1.cpp.i
+M2.cpp.i:
+	$(MAKE) -f CMakeFiles/MicroM2.dir/build.make CMakeFiles/MicroM2.dir/M2.cpp.i
+.PHONY : M2.cpp.i
 
-M1.s: M1.cpp.s
+M2.s: M2.cpp.s
 
-.PHONY : M1.s
+.PHONY : M2.s
 
 # target to generate assembly for a file
-M1.cpp.s:
-	$(MAKE) -f CMakeFiles/MicroM2.dir/build.make CMakeFiles/MicroM2.dir/M1.cpp.s
-.PHONY : M1.cpp.s
+M2.cpp.s:
+	$(MAKE) -f CMakeFiles/MicroM2.dir/build.make CMakeFiles/MicroM2.dir/M2.cpp.s
+.PHONY : M2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... MicroM2"
 	@echo "... edit_cache"
-	@echo "... M1.o"
-	@echo "... M1.i"
-	@echo "... M1.s"
+	@echo "... M2.o"
+	@echo "... M2.i"
+	@echo "... M2.s"
 .PHONY : help
 
 

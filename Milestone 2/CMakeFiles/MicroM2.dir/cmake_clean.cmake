@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MicroM2.dir/M1.cpp.o"
+  "CMakeFiles/MicroM2.dir/M2.cpp.o"
   "MicroM2.pdb"
   "MicroM2"
 )

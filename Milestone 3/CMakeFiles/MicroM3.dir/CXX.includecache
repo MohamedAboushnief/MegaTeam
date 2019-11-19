@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohamed/Desktop/Milestone 3/M3.cpp
+unistd.h
+-
+iostream
+-
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+mpi.h
+-
+
+/usr/local/include/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/usr/local/include/mpio.h
+mpicxx.h
+/usr/local/include/mpicxx.h
+
+/usr/local/include/mpicxx.h
+stdio.h
+-
+
+/usr/local/include/mpio.h
+mpi.h
+/usr/local/include/mpi.h
+

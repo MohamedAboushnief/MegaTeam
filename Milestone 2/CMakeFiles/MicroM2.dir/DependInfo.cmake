@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mohamed/Desktop/MPI_Parallel_Programming/M1.cpp" "/home/mohamed/Desktop/MPI_Parallel_Programming/CMakeFiles/MicroM2.dir/M1.cpp.o"
+  "/home/mohamed/Desktop/MegaTeam/Milestone 2/M2.cpp" "/home/mohamed/Desktop/MegaTeam/Milestone 2/CMakeFiles/MicroM2.dir/M2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
