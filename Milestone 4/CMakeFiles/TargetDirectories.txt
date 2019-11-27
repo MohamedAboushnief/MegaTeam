@@ -1,0 +1,3 @@
+/home/mohamed/Desktop/Milestone 4/CMakeFiles/rebuild_cache.dir
+/home/mohamed/Desktop/Milestone 4/CMakeFiles/MicroM4.dir
+/home/mohamed/Desktop/Milestone 4/CMakeFiles/edit_cache.dir
